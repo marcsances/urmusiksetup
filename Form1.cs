@@ -80,7 +80,7 @@ namespace urMusik_Setup
                 fbd.Description = changepath.Text;
                 if (fbd.ShowDialog() == DialogResult.OK) dir = fbd.SelectedPath;
             }
-            if (dir == "") dir = Environment.SpecialFolder.ProgramFiles + "\\MSS Software & Services\\urMusik\\" + APP_VER;
+            if (dir == "") dir = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles) + "\\MSS Software & Services\\urMusik\\" + APP_VER;
             if (performInstall(dir))
             {
                 associateExts(dir);
@@ -94,6 +94,7 @@ namespace urMusik_Setup
 
         private void hideui()
         {
+            install.Visible = false;
             textBox1.Visible = false;
             disclaimer.Visible = false;
             linkLabel1.Visible = false;
@@ -106,6 +107,7 @@ namespace urMusik_Setup
 
         private bool performInstall(string dir)
         {
+            
             cancelsetup.Enabled = false;
             ControlBox = false;
             heading.Text = twait.Text;

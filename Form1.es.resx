@@ -141,6 +141,10 @@ En los links de abajo puedes leer dichas licencias.</value>
   <data name="cancelsetup.Text" xml:space="preserve">
     <value>Cerrar</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="install.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="install.Text" xml:space="preserve">
     <value>Instalar!</value>
   </data>

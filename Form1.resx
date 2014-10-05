@@ -137,9 +137,6 @@
   <data name="heading2.Size" type="System.Drawing.Size, System.Drawing">
     <value>457, 66</value>
   </data>
-  <data name="&gt;&gt;install.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;heading2.Name" xml:space="preserve">
     <value>heading2</value>
   </data>
@@ -156,19 +153,19 @@ The following links redirect you to them.</value>
   <data name="&gt;&gt;dalmost.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>454, 143</value>
-  </data>
   <data name="cancelsetup.Text" xml:space="preserve">
     <value>Cancel</value>
   </data>
   <data name="bexit.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="&gt;&gt;makedefault.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="talmost.Text" xml:space="preserve">
+    <value>Almost finished</value>
   </data>
-  <data name="&gt;&gt;checklic.ZOrder" xml:space="preserve">
+  <data name="bexit.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="changepath.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
   <data name="&gt;&gt;bexit.ZOrder" xml:space="preserve">
@@ -229,8 +226,8 @@ The following links redirect you to them.</value>
   <data name="twait.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 13</value>
   </data>
-  <data name="&gt;&gt;heading2.ZOrder" xml:space="preserve">
-    <value>18</value>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>454, 143</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2297,6 +2294,9 @@ The following links redirect you to them.</value>
   <data name="dwait.Location" type="System.Drawing.Point, System.Drawing">
     <value>309, 378</value>
   </data>
+  <data name="&gt;&gt;heading2.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
   <data name="&gt;&gt;disclaimer.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -2329,8 +2329,8 @@ proceed.</value>
   <data name="dwait.Size" type="System.Drawing.Size, System.Drawing">
     <value>208, 13</value>
   </data>
-  <data name="talmost.Text" xml:space="preserve">
-    <value>Almost finished</value>
+  <data name="checklic.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
   <data name="checklic.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 345</value>
@@ -2413,8 +2413,11 @@ proceed.</value>
   <data name="&gt;&gt;terror.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="changepath.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="terror.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 411</value>
+  </data>
+  <data name="&gt;&gt;linkLabel3.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;install.ZOrder" xml:space="preserve">
     <value>11</value>
@@ -2443,6 +2446,9 @@ proceed.</value>
   <data name="heading2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;makedefault.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="exts.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -2458,6 +2464,9 @@ proceed.</value>
   <data name="install.Text" xml:space="preserve">
     <value>Install now!</value>
   </data>
+  <data name="&gt;&gt;checklic.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
   <data name="&gt;&gt;install.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -2466,12 +2475,6 @@ proceed.</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
-  </data>
-  <data name="&gt;&gt;cancelsetup.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="exts.Size" type="System.Drawing.Size, System.Drawing">
-    <value>357, 13</value>
   </data>
   <data name="terror.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -2518,6 +2521,9 @@ proceed.</value>
   <data name="cancelsetup.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 29</value>
   </data>
+  <data name="derror.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
   <data name="&gt;&gt;terror.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
@@ -2551,8 +2557,8 @@ proceed.</value>
   <data name="heading2.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 37</value>
   </data>
-  <data name="&gt;&gt;linkLabel3.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;install.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="linkLabel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>305, 18</value>
@@ -2565,9 +2571,6 @@ proceed.</value>
   </data>
   <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
     <value>textBox1</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;twait.Name" xml:space="preserve">
     <value>twait</value>
@@ -2584,8 +2587,8 @@ proceed.</value>
   <data name="talmost.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 13</value>
   </data>
-  <data name="terror.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 411</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
     <value>17</value>
@@ -4063,11 +4066,8 @@ You can now begin using urMusik with the shortcuts created.</value>
   <data name="&gt;&gt;bexit.Name" xml:space="preserve">
     <value>bexit</value>
   </data>
-  <data name="checklic.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="bexit.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;changepath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="bexit.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -4102,8 +4102,8 @@ You can now begin using urMusik with the shortcuts created.</value>
   <data name="changepath.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;changepath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;cancelsetup.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="linkLabel1.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -4153,8 +4153,8 @@ You can now begin using urMusik with the shortcuts created.</value>
   <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="derror.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="exts.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 13</value>
   </data>
   <data name="&gt;&gt;disclaimer.Name" xml:space="preserve">
     <value>disclaimer</value>
@@ -4166,6 +4166,6 @@ You can now begin using urMusik with the shortcuts created.</value>
     <value>True</value>
   </metadata>
   <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>es</value>
+    <value>ca</value>
   </metadata>
 </root>

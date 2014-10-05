@@ -141,6 +141,10 @@ Feu clic sobre els enllaços de sota per llegir-les.</value>
   <data name="cancelsetup.Text" xml:space="preserve">
     <value>Surt</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="install.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="install.Text" xml:space="preserve">
     <value>Instal·lar!</value>
   </data>
@@ -157,10 +161,10 @@ Feu clic sobre els enllaços de sota per llegir-les.</value>
     <value>Canvia la ruta d'instal·lació</value>
   </data>
   <data name="makedefault.Size" type="System.Drawing.Size, System.Drawing">
-    <value>234, 17</value>
+    <value>242, 17</value>
   </data>
   <data name="makedefault.Text" xml:space="preserve">
-    <value>Fes urMusik el meu reproductor per defecte.</value>
+    <value>Fes d'urMusik el meu reproductor per defecte.</value>
   </data>
   <data name="bexit.Size" type="System.Drawing.Size, System.Drawing">
     <value>38, 13</value>
