@@ -45,29 +45,10 @@ namespace urMusik_Setup
             InitializeComponent();
         }
 
-        private bool checkDotNet()
-        {
-            // thanks to http://stackoverflow.com/questions/951856/is-there-an-easy-way-to-check-net-framework-version
-            RegistryKey installed_versions = Registry.LocalMachine.OpenSubKey(@"SOFTWARE\Microsoft\NET Framework Setup\NDP");
-            string[] version_names = installed_versions.GetSubKeyNames();
-            //version names start with 'v', eg, 'v3.5' which needs to be trimmed off before conversion
-            double Framework = Convert.ToDouble(version_names[version_names.Length - 1].Remove(0, 1), CultureInfo.InvariantCulture);
-            int SP = Convert.ToInt32(installed_versions.OpenSubKey(version_names[version_names.Length - 1]).GetValue("SP", 0));
-            bool found = false;
-            int i = 0;
-            while (i < version_names.Length && !found)
-            {
-                if (version_names[i].Substring(0, 4) == "v4.0") found = true;
-            }
-            return found;
-        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            if (!checkDotNet())
-            {
-                Process.Start("http://www.microsoft.com/en-us/download/details.aspx?id=17851");
-            }
+            
         }
 
         private void cancelsetup_Click(object sender, EventArgs e)
